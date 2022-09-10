@@ -5,10 +5,11 @@
   --black: #000000;
   --white: #FFFFFF;
   font-size: 62.5%;
-  --fs-body: 2rem;
+/*  --fs-body: 2rem;
   --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
-  --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4.0rem);
+  --fs-heading-sm: clamp(1.2rem, 0.5rem + 3vw, 2rem);
   --fs-cards: 3.2rem;
+  --img-size: clamp(4.5rem, 0.5rem + 3vw, 7.5rem);*/
 }
 
 body{
@@ -40,7 +41,6 @@ header{
 }
 header img{
   max-width: 7.5rem;
-  max-height: 15rem;
   width: auto;
   height: auto;
   opacity: 0.5;
@@ -53,6 +53,7 @@ header ul{
   flex-direction: row;
   list-style: none;
   gap: 3.6rem;
+  font-size: var(--fs-heading-sm);
 }
 
 header a{
